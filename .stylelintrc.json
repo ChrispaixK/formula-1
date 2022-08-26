@@ -5,9 +5,6 @@
     "at-rule-no-unknown": [
       true,
       {
-        "ignoreAtRules": ["extend", "mixin", "include", "content", "if", "error", "else"]
-      },
-      {
         "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
       }
     ],
