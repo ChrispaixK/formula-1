@@ -3,6 +3,7 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    top: 0;
     background-color: rgba(225, 179, 252, 0.596);
 }
 
