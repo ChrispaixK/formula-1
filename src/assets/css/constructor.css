@@ -1,0 +1,13 @@
+.constructor {
+    border: 1px solid slateblue;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee969696;
+}
+
+.constructor p {
+    flex: 1 1 0;
+    background-color: #ee9696;
+    padding-left: 5px;
+    font-size: 18px;
+}

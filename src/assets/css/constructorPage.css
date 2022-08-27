@@ -1,0 +1,24 @@
+.constructorsPage {
+    text-align: start;
+}
+
+.hero{
+    background-color: #ee969696;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.data-label {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ee9696;
+}
+.data-label p {
+    flex: 1 1 0;
+    border-left: 1px solid rgb(255, 255, 255);
+    text-transform: uppercase;  
+    padding-left: 5px;
+}
+.data-label :first-child {
+    border: none;
+}

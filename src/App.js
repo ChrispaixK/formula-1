@@ -1,10 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
 import './assets/css/App.css';
-import Drivers from './pages/Drivers';
+import Drivers from './pages/DriversPage';
 import Navbar from './components/Navbar';
-import Constructors from './pages/Constructors';
-import Home from './pages/Home';
-import About from './pages/about';
+import Constructors from './pages/ConstructorsPage';
+import Home from './pages/HomePage';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="drivers" element={<Drivers />} />
           <Route path="constructors" element={<Constructors />} />
-          <Route path="about" element={<About />} />
         </Routes>
       </div>
     </>
