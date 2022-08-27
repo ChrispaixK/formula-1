@@ -1,0 +1,12 @@
+.driver {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+}
+
+.driver p {
+    flex: 1 1 0;
+    background-color: var(--secondary);
+    padding-left: 5px;
+    font-size: 18px;
+}
