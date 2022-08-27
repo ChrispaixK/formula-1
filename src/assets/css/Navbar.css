@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(225, 179, 252, 0.596);
+}
+
+.nav-left {
+    margin-left: 5px;
+}
+.nav-left i{
+    margin-right: 3px;
+}
+
+.nav-right i{
+    margin-right: 20px;
+}
