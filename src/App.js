@@ -1,8 +1,22 @@
+import { Routes, Route } from 'react-router-dom';
 import './assets/css/App.css';
+import Drivers from './pages/Drivers';
+import Navbar from './components/Navbar';
+import Constructors from './pages/Constructors';
+import Home from './pages/Home';
+import About from './pages/about';
 
 function App() {
   return (
-    <h1>Formula 1 Records</h1>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="drivers" element={<Drivers />} />
+        <Route path="constructors" element={<Constructors />} />
+        <Route path="about" element={<About />} />
+      </Routes>
+    </>
   );
 }
 
