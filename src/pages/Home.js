@@ -36,6 +36,7 @@ const Home = () => {
               <p>Constructors</p>
               <p>16</p>
             </div>
+            <i className="fa-solid fa-arrow-right" />
           </div>
         </NavLink>
 
@@ -46,6 +47,7 @@ const Home = () => {
               <p>Drivers</p>
               <p>12</p>
             </div>
+            <i className="fa-solid fa-arrow-right" />
           </div>
         </NavLink>
       </div>

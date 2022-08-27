@@ -65,14 +65,41 @@
     min-height: 150px;
     background-image: url('../img/left.png');
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
 }
 
+.constructors i {
+    color: black;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin:5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
 .drivers {
     border: 1px solid green;
     width: 150px;
     min-height: 150px;
     background-image: url('../img/right.png');
     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.drivers i {
+    color: black;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin:5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
 }
 
 .infos {
