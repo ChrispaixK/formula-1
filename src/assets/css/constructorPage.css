@@ -3,7 +3,7 @@
 }
 
 .hero{
-    background-color: #ee969696;
+    background-color: var(--primary);
     height: 100px;
     display: flex;
     align-items: center;
@@ -11,11 +11,11 @@
 .data-label {
     display: flex;
     justify-content: space-between;
-    background-color: #ee9696;
+    background-color: var(--secondary);
 }
 .data-label p {
     flex: 1 1 0;
-    border-left: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid #fff;
     text-transform: uppercase;  
     padding-left: 5px;
 }

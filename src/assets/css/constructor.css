@@ -1,13 +1,12 @@
 .constructor {
-    border: 1px solid slateblue;
     display: flex;
     justify-content: space-between;
-    background-color: #ee969696;
+    background-color: var(--primary);
 }
 
 .constructor p {
     flex: 1 1 0;
-    background-color: #ee9696;
+    background-color: var(--secondary);
     padding-left: 5px;
     font-size: 18px;
 }

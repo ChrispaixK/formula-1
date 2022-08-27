@@ -3,7 +3,7 @@ body {
 }
 
 .routes {
-  border: 1px solid red;
+  border: 1px solid var(--primary);
   margin-top: 50px;
   padding-bottom: 10px;
 }

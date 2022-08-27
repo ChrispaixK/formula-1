@@ -1,5 +1,5 @@
 .paper {
-    border: 1px solid #7862f1;
+    border: 1px solid var(--primary);
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -30,7 +30,7 @@
 .st-left {
     width: 150px;
     min-height: 150px;
-    border: 1px solid greenyellow;
+    border: 1px solid var(--secondary);
     background-image: url('../img/stback.png');
     background-size: cover;
 }
@@ -38,7 +38,7 @@
 .st-right {
     width: 150px;
     min-height: 150px;
-    border: 1px solid greenyellow;
+    border: 1px solid var(--secondary);
     display: flex;
     flex-direction: column;
 }
@@ -60,7 +60,7 @@
     text-decoration: none;
 }
 .constructors {
-    border: 1px solid green;
+    border: 1px solid var(--secondary);
     width: 150px;
     min-height: 150px;
     background-image: url('../img/left.png');
@@ -81,7 +81,7 @@
     border-radius: 30px;
 }
 .drivers {
-    border: 1px solid green;
+    border: 1px solid var(--secondary);
     width: 150px;
     min-height: 150px;
     background-image: url('../img/right.png');
