@@ -1,0 +1,86 @@
+.paper {
+    border: 1px solid #7862f1;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.paper input {
+    border: none;
+    width: 87%;
+    height: 30px;
+}
+.paper ::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.search-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.standings {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.st-left {
+    width: 150px;
+    min-height: 150px;
+    border: 1px solid greenyellow;
+    background-image: url('../img/stback.png');
+    background-size: cover;
+}
+
+.st-right {
+    width: 150px;
+    min-height: 150px;
+    border: 1px solid greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.st-right p {
+    margin:0 ;
+    text-align: start;
+    font-size: 24px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+
+.other-data {
+    display: flex;
+    justify-content: center;
+}
+.other-data a {
+    text-decoration: none;
+}
+.constructors {
+    border: 1px solid green;
+    width: 150px;
+    min-height: 150px;
+    background-image: url('../img/left.png');
+    background-size: cover;
+}
+
+.drivers {
+    border: 1px solid green;
+    width: 150px;
+    min-height: 150px;
+    background-image: url('../img/right.png');
+    background-size: cover;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos p {
+    margin: 0;
+    text-align: start;
+}

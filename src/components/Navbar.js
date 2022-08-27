@@ -1,12 +1,16 @@
 import React from 'react';
 import '../assets/css/Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
+
     <div className="navbar">
       <div className="nav-left">
         <p>
-          <i className="fa-solid fa-angle-left" />
+          <NavLink to="/">
+            <i className="fa-solid fa-angle-left" />
+          </NavLink>
           2018
         </p>
       </div>
@@ -20,6 +24,7 @@ const Navbar = () => {
         </p>
       </div>
     </div>
+
   );
 };
 

@@ -5,4 +5,5 @@ body {
 .routes {
   border: 1px solid red;
   margin-top: 50px;
+  padding-bottom: 10px;
 }
