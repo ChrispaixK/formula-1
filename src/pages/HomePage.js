@@ -1,14 +1,14 @@
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Paper } from '@mui/material';
+import Paper from '@mui/material/Paper';
 import NumberFormat from 'react-number-format';
-import '../assets/css/Home.css';
-import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
 import { fetchConstructors } from '../redux/constructors';
 import { fetchDrivers } from '../redux/drivers';
 import { fetchRaces } from '../redux/races';
 import { fetchSeason } from '../redux/home';
+import '../assets/css/Home.css';
 
 const Home = (props) => {
   const [year, setYear] = useState('');
@@ -27,9 +27,9 @@ const Home = (props) => {
   };
 
   const enterBtnHandle = (e) => {
-    e.preventDefault();
     if (e.key === 'Enter') {
       if (year.match(rgx)) {
+        e.preventDefault();
         fetchData();
         setYear('');
       }
@@ -64,10 +64,10 @@ const Home = (props) => {
           <i
             role="button"
             className="fa-solid fa-magnifying-glass search-btn"
-            aria-label="Search"
+            aria-label="search"
             onClick={handleEvent}
             tabIndex={0}
-            aria-hidden="true"
+            onKeyDown={handleEvent}
           />
         </Paper>
       </div>
