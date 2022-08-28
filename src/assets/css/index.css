@@ -1,6 +1,6 @@
-:root{
-  --primary: #DCB0FF;
- --secondary: #BE93FD;
+:root {
+  --primary: #dcb0ff;
+  --secondary: #be93fd;
 }
 
 body {
@@ -31,5 +31,3 @@ code {
     'Courier New',
     monospace;
 }
-
-

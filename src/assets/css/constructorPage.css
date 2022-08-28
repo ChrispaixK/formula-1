@@ -1,20 +1,23 @@
-.hero{
-    background-color: var(--primary);
-    height: 100px;
-    display: flex;
-    align-items: center;
+.hero {
+  background-color: var(--primary);
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
+
 .data-label {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--secondary);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary);
 }
+
 .data-label p {
-    flex: 1 1 0;
-    border-left: 1px solid #fff;
-    text-transform: uppercase;  
-    padding-left: 5px;
+  flex: 1 1 0;
+  border-left: 1px solid #fff;
+  text-transform: uppercase;
+  padding-left: 5px;
 }
+
 .data-label :first-child {
-    border: none;
+  border: none;
 }

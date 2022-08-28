@@ -1,6 +1,5 @@
-import driversReducer ,{DRIVERS} from '../redux/drivers'
-import constructorReducer, {CONSTRUCTORS} from '../redux/constructors'
-
+import driversReducer, { DRIVERS } from '../redux/drivers';
+import constructorReducer, { CONSTRUCTORS } from '../redux/constructors';
 
 describe('Reducers', () => {
   test('Display list of drivers when receiving DRIVERS type', () => {
@@ -27,7 +26,7 @@ describe('Reducers', () => {
       drivers,
     });
     expect(newState).toEqual(drivers);
-  }); 
+  });
 
   test('Display list of drivers when receiving CONSTRUCTORS type', () => {
     const constructors = [
