@@ -8,7 +8,7 @@ const Drivers = () => {
     <>
       <div className="driverPage">
         <div className="hero">
-          <h2>Driver</h2>
+          <h2>Drivers list</h2>
         </div>
         <div className="data-label">
           <p>naMe</p>
