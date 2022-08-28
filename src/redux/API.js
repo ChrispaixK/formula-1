@@ -1,1 +1,3 @@
-export const apiURL ='https://ergast.com/api/f1/';
+const apiURL = 'https://ergast.com/api/f1/';
+
+export default apiURL;

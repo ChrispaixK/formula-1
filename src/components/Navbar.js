@@ -1,17 +1,19 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import '../assets/css/Navbar.css';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-  return (
+const Navbar = (props) => {
+  const { season, actualYear } = props;
 
+  return (
     <div className="navbar">
       <div className="nav-left">
         <p>
           <NavLink to="/">
             <i className="fa-solid fa-angle-left" />
           </NavLink>
-          2018
+          {!season ? { actualYear } : season}
         </p>
       </div>
       <div className="nav-center">
@@ -24,8 +26,12 @@ const Navbar = () => {
         </p>
       </div>
     </div>
-
   );
+};
+
+Navbar.propTypes = {
+  season: PropTypes.string.isRequired,
+  actualYear: PropTypes.string.isRequired,
 };
 
 export default Navbar;
