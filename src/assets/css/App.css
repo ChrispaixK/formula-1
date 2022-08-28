@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+.routes {
+  border: 1px solid var(--primary);
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
