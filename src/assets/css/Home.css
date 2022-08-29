@@ -1,3 +1,14 @@
+.top-title {
+  padding-top: 20px;
+  margin: 0 20px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.top-title p {
+  margin-top: -20px;
+}
+
 .paper {
   border: 1px solid var(--primary);
   width: 90%;
@@ -10,6 +21,7 @@
   border: none;
   width: 87%;
   height: 30px;
+  background-color: var(--primary);
 }
 
 .paper ::placeholder {
@@ -22,30 +34,35 @@
   cursor: pointer;
 }
 
+.x-infos {
+  margin: 50px 20px;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.185);
+}
+
 .standings {
-  margin-top: 55px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .st-left {
-  width: 150px;
-  min-height: 150px;
-  border: 1px solid var(--secondary);
+  width: 50%;
+  aspect-ratio: 1 / 1;
   background-image: url('../img/stback.png');
   background-size: cover;
+  background-color: var(--primary);
 }
 
 .st-right {
-  width: 150px;
-  min-height: 150px;
-  border: 1px solid var(--secondary);
+  width: 50%;
+  aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary);
 }
 
-.st-right p {
+.standInfos p {
   margin: 0;
   text-align: start;
   font-size: 24px;
@@ -55,7 +72,6 @@
 
 .other-data {
   display: flex;
-  justify-content: center;
 }
 
 .other-data a {
@@ -63,13 +79,13 @@
 }
 
 .constructors {
-  border: 1px solid var(--secondary);
-  width: 150px;
-  min-height: 150px;
+  width: 50%;
+  aspect-ratio: 1/1;
   background-image: url('../img/left.png');
   background-size: cover;
   display: flex;
   justify-content: space-between;
+  border: none;
 }
 
 .constructors i {
@@ -85,13 +101,12 @@
 }
 
 .drivers {
-  border: 1px solid var(--secondary);
-  width: 150px;
-  min-height: 150px;
+  width: 50%;
   background-image: url('../img/right.png');
   background-size: cover;
   display: flex;
   justify-content: space-between;
+  border: none;
 }
 
 .drivers i {
@@ -109,9 +124,47 @@
 .infos {
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
 }
 
 .infos p {
-  margin: 0;
+  margin: 2px;
   text-align: start;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .top-title {
+    padding-top: 20px;
+    margin: 0 65px;
+    text-align: center;
+  }
+
+  .x-infos {
+    padding: 0 200px;
+    box-shadow: none;
+  }
+
+  .paper {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .top-title {
+    padding-top: 20px;
+    margin: 0 65px;
+    text-align: center;
+  }
+
+  .x-infos {
+    padding: 0 400px;
+    box-shadow: none;
+  }
+
+  .paper {
+    width: 30%;
+  }
 }

@@ -17,7 +17,7 @@ const Navbar = (props) => {
         </p>
       </div>
       <div className="nav-center">
-        <p>Home page</p>
+        <p>Formula-1 Records</p>
       </div>
       <div className="nav-right">
         <p>
