@@ -1,62 +1,57 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Formula 1 Records
 
-> Description the project.
-
+> This is a simple React application which allows its user to filter by year and display information about formula 1 records of a selected year from ergast API
+>With this application you can see a list of manufacturers who participated, their names, positions, wins and points, as well as a list of drivers who participated in the same year, their name, position, wins and their points
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux
+- Ergast Developer API
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://delicate-snickerdoodle-52fd87.netlify.app/)
 
 
 ## Getting Started
+## Prerequisites
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
+- React & Redux
+- CSS 
 ### Install
 
-### Usage
+- run `https://github.com/ChrispaixK/React-Capstone.git` on your terminal
+- cd into the directory
+- run `npm install`
+## Available Scripts
+
+In the project directory, you can run:
+
+run `npm start`
 
 ### Run tests
 
-### Deployment
-
+After npm is installed
+- Run `npm test`
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Chrispaix KAZE**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ChrispaixK](https://github.com/ChrispaixK)
+- Twitter: [@ChrispaixK](https://twitter.com/ChrispaixK)
+- LinkedIn: [Chrispaix KAZE](https://www.linkedin.com/in/chrispaix-kaze-70445a175/)
+- Pinterest: [Chrispaix Kaze](https://www.pinterest.fr/chrispaixkaze/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ChrispaixK/React-Capstone/issues).
 
 ## Show your support
 
@@ -64,12 +59,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- MicroverseInc
+- Ergast
+- Nelson Sakwa (author of the originan design)
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is MIT licensed.
+._

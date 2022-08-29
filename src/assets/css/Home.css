@@ -1,0 +1,170 @@
+.top-title {
+  padding-top: 20px;
+  margin: 0 20px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.top-title p {
+  margin-top: -20px;
+}
+
+.paper {
+  border: 1px solid var(--primary);
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.paper input {
+  border: none;
+  width: 87%;
+  height: 30px;
+  background-color: var(--primary);
+}
+
+.paper ::placeholder {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.search-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.x-infos {
+  margin: 50px 20px;
+  box-shadow: 0 3px 10px 1px rgba(0, 0, 0, 0.185);
+}
+
+.standings {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.st-left {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  background-image: url('../img/stback.png');
+  background-size: cover;
+  background-color: var(--primary);
+}
+
+.st-right {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary);
+}
+
+.standInfos p {
+  margin: 0;
+  text-align: start;
+  font-size: 24px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.other-data {
+  display: flex;
+}
+
+.other-data a {
+  text-decoration: none;
+}
+
+.constructors {
+  width: 50%;
+  aspect-ratio: 1/1;
+  background-image: url('../img/left.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.constructors i {
+  color: black;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.drivers {
+  width: 50%;
+  background-image: url('../img/right.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.drivers i {
+  color: black;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.infos p {
+  margin: 2px;
+  text-align: start;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .top-title {
+    padding-top: 20px;
+    margin: 0 65px;
+    text-align: center;
+  }
+
+  .x-infos {
+    padding: 0 200px;
+    box-shadow: none;
+  }
+
+  .paper {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .top-title {
+    padding-top: 20px;
+    margin: 0 65px;
+    text-align: center;
+  }
+
+  .x-infos {
+    padding: 0 400px;
+    box-shadow: none;
+  }
+
+  .paper {
+    width: 30%;
+  }
+}
