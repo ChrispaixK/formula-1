@@ -44,6 +44,10 @@ const Home = (props) => {
   const changeSeason = (e) => {
     setYear(e.target.value);
   };
+    /* after adding a year between 1952 and 2022 the year in the input field ,
+    the races , number of constructor and number of drivers change in the DOM
+    If you click on view more icon you will notice also you get list of drivers
+    and constructors from the specific year you search for  */
 
   return (
     <>
