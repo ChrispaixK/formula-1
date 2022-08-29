@@ -49,13 +49,13 @@ const Home = (props) => {
     <>
       <div className="top-title">
         <h1>Formula-1</h1>
-        <p>Records</p>
+        <p>Records from 1952</p>
       </div>
       <div className="search-bar">
         <Paper component="form" className="paper">
           <NumberFormat
             format="####"
-            placeholder="Search data by year"
+            placeholder="Filter by Year"
             className="searched"
             value={year}
             onChange={changeSeason}
@@ -71,39 +71,40 @@ const Home = (props) => {
           />
         </Paper>
       </div>
-      <div className="standings">
-        <div className="st-left" />
-        <div className="st-right">
-          <p>{!season ? { actualYear } : season}</p>
-          <p>Standings</p>
-          <p>
-            {races}
-            races
-          </p>
+      <div className="x-infos">
+        <div className="standings">
+          <div className="st-left" />
+          <div className="st-right">
+            <div className="standInfos">
+              <p>{!season ? { actualYear } : season}</p>
+              <p>Standings</p>
+              <p>
+                {races}
+                {' '}
+                races
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="other-data">
-        <NavLink to="constructors">
-          <div className="constructors">
+        <div className="other-data">
+          <NavLink to="constructors" className="constructors">
             <div className="infos">
               <p>{!season ? { actualYear } : season}</p>
               <p>Constructors</p>
               <p>{constructors.length}</p>
             </div>
             <i className="fa-solid fa-arrow-right" />
-          </div>
-        </NavLink>
+          </NavLink>
 
-        <NavLink to="drivers">
-          <div className="drivers">
+          <NavLink to="drivers" className="drivers">
             <div className="infos">
               <p>{!season ? { actualYear } : season}</p>
               <p>Drivers</p>
               <p>{drivers.length}</p>
             </div>
             <i className="fa-solid fa-arrow-right" />
-          </div>
-        </NavLink>
+          </NavLink>
+        </div>
       </div>
     </>
   );
