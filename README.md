@@ -61,6 +61,7 @@ Give a ⭐️ if you like this project!
 
 - MicroverseInc
 - Ergast
+- Nelson Sakwa (author of the originan design)
 
 ## 📝 License
 
